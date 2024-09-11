@@ -5,7 +5,7 @@ FROM tomcat:9.0
 COPY blog.html /usr/local/tomcat/webapps/ROOT/index.html
 
 # Expose port 8080
-EXPOSE 8082
+EXPOSE 8080
 
 # Start Tomcat server
 CMD ["catalina.sh", "run"]
